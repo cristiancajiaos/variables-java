@@ -1,20 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package variables;
 
-/**
- *
- * @author crist
- */
 public class Variables {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int telefono = 1234567;
+        char letra = 'G';
+        float peso = 84.3f;
+        double ngrande = 76.230339523043430493205;
+        
+        System.out.println("El número de teléfono es " + telefono);
+        System.out.println("La letra es " + letra);
+        System.out.println("El peso es " + peso);
+        System.out.println("El número grande es " + ngrande);
     }
     
 }
